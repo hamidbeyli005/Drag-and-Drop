@@ -22,6 +22,31 @@ body .container .wrapper {
   flex-direction: column;
   gap: 1rem;
 }
+@media (max-width: 1200px) {
+  body .container .wrapper {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  body .container .wrapper {
+    width: 70%;
+  }
+}
+@media (max-width: 650px) {
+  body .container .wrapper {
+    width: 80%;
+  }
+}
+@media (max-width: 550px) {
+  body .container .wrapper {
+    width: 90%;
+  }
+}
+@media (max-width: 375px) {
+  body .container .wrapper {
+    padding: 1.4rem 1rem;
+  }
+}
 body .container .wrapper .card {
   height: 80px;
   padding: 0 1rem;
@@ -60,6 +85,11 @@ body .container .wrapper .drop_data div .drop_profession {
 body .container .wrapper .drop_socials {
   display: flex;
   gap: 2px;
+}
+@media (max-width: 480px) {
+  body .container .wrapper .drop_socials {
+    display: none;
+  }
 }
 body .container .wrapper .drop_socials .drop_social {
   color: #8a8eaa;
